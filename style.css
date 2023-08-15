@@ -2,12 +2,37 @@ body {
     background-color: rgb(111, 228, 164);
   }
   
-  .meuNome, .descricao {
+  .meuNome{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 345px;
   }
   
   em {
     color: rgb(67, 138, 83);
   }
   
-  
+  div{
+    border: 2px solid green;
+  }
+
+  #minha-foto{
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: aqua;
+  }
+  .image-conteiner{
+    height: 300px;
+    position: relative;
+  }
+
+  ul li:nth-child(odd){
+    background-color: aqua;
+  }
